@@ -1,0 +1,130 @@
+::selection {
+	background-color: #9a4c74;
+	color: #fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html { 
+	height: 100%;
+}
+
+body {
+	background: url(5.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background: -webkit-linear-gradient(top, rgb(179, 140, 142) 0%, rgb(113, 117, 127) 66%, rgb(75, 105, 122) 100%);
+	background: -o-linear-gradient(top, rgb(179, 140, 142) 0%, rgb(113, 117, 127) 66%, rgb(75, 105, 122) 100%);
+	background: -ms-linear-gradient(top, rgb(179, 140, 142) 0%, rgb(113, 117, 127) 66%, rgb(75, 105, 122) 100%);
+	background: -moz-linear-gradient(top, rgb(179, 140, 142) 0%, rgb(113, 117, 127) 66%, rgb(75, 105, 122) 100%);
+	background: linear-gradient(to bottom, rgb(179, 140, 142) 0%, rgb(113, 117, 127) 66%, rgb(75, 105, 122) 100%);
+	font-family: 'CalibriR', sans-serif;
+}
+
+div.main {
+	width: 510px;
+	min-height:100px;
+	margin: 55px auto;
+	padding: 35px 50px;
+	background-color: #fff;
+	opacity: 0.8;
+	background-color: rgba(10,73,100,0.56);
+	color: #9e8588;
+}
+
+div.logo {
+	background-image: url('logo-s.png');
+	background-repeat: none;
+	width: 198px;
+	height: 255px;
+	margin: 0 auto 25px;
+
+}
+
+p,a,small {
+	color: #8f8f8f;
+	text-align: center;
+}
+
+p {
+	font-size: 15px;
+}
+
+a.butt {
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: 400;
+	padding: 7px 6px;
+	border: 2px solid #9e8588;
+	color:#9e8588;
+	margin: 13px 0 0;
+}
+
+.butt:hover {
+	background-color: #9e8588;
+	color: rgb(10,73,100);
+}
+
+.bwrap {
+	margin: 0 auto;
+	display: table;
+}
+
+.lwrap {
+	margin: 0 auto 25px;
+	display: table;
+}
+
+.lwrap a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+.lwrap a:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.lwrap a:hover:after {
+    width: 100%;
+    background: #8f8f8f;
+}
+
+.lwrap ul {
+	list-style-type: none;
+	margin: 4px 0 0;
+}
+
+.lwrap li {
+	display: inline-block;
+}
+
+small.footnote {
+	text-transform: uppercase;
+	display: block;
+	font-weight: 300;
+}
+
+@media(max-width: 540px) {
+	div.main {
+		padding: 0;
+		width: 100%;
+		border: 0;
+		border-top: 4px solid #8f8f8f;
+		border-bottom: 4px solid #8f8f8f;
+	}
+	div.mainpad {
+		padding: 25px 7px;
+	}
+}
