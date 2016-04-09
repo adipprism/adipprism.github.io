@@ -1,0 +1,14 @@
+.cover-attendee {
+	background: url('covers/attend-1343.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#main-content {
+	background-color: #ebeef0 !important;
+}

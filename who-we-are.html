@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>PRISM - Who We Are</title>
+		<meta name="description" content="PRISM is a night about mental health awareness full of live music, public speakers, and artists showing their pieces off. The night is open to all students in TDSB attending Area D schools.">
+		<meta name="keywords" content="ADIP,Area D,Initiative,PRISM,Art,Healthy Mind">
+		<!-- Analytics and Share sections add here -->
+		<link rel="stylesheet" href="static/font/nexa/font-face.css" />
+		<link rel="stylesheet" href="static/font/fa/css/font-awesome.min.css" />
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.css" />
+		<link rel="stylesheet" href="static/mtheme.css" />
+		<link rel="stylesheet" href="static/c-css/who-we-are.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="static/js/click-scroll.js"></script>
+		<script src="static/js/sticky.js"></script>
+		<script src="static/js/toggle-mobile.js"></script>
+	</head>
+	<body>
+		<div class="fscreen cover-who-we-are cover"></div>
+		<header class="fscreen header-ac">
+			<div class="fscreen-center">
+				<div class="blogo"></div>
+				<h2 class="page-name">Who We Are</h2>
+				<h3 class="page-sub">A collective of students in schools around North Eastern Toronto.</h3>
+			</div>
+			<div class="header-arrow">
+				<a href="#nav" class="show">
+					<i class="fa fa-arrow-circle-down fa-4x" style="color:#fff;"></i>
+				</a>
+				<a href="#nav-mobile" class="show-mobile">
+					<i class="fa fa-arrow-circle-down fa-4x" style="color:#fff;"></i>
+				</a>
+			</div>
+		</header>
+		<nav class="sitenav" id="nav">
+			<ul class="links">
+				<li class="logo">
+					<div class="logo-icon"></div>
+				</li><li class="name">
+					<h1>Prism</h1>
+				</li><li>
+					<a href="index.html">The Event</a>
+				</li><li>
+					<a href="artists.html">For Artists</a>
+				</li><li class="current">
+					<a href="#">Who We Are</a>
+				</li><li class="last">
+					<a href="contact-us.html">Contact Us</a>
+				</li>
+			</ul>
+		</nav>
+		<nav class="sitenav-mobile" id="nav-mobile">
+			<div class="clicktoggle cursor-link">
+				<div class="padding10">
+					<p class="bold font20"><i class="fa fa-bars font20" style="margin: 0 9px 0 0;"></i>Menu</p>
+				</div>
+			</div>
+			<ul class="links toggler-mobile">
+				<li>
+					<a href="index.html">The Event</a>
+				</li><li>
+					<a href="artists.html">For Artists</a>
+				</li><li class="current">
+					<a href="#">Who We Are</a>
+				</li><li class="last">
+					<a href="contact-us.html">Contact Us</a>
+				</li>
+			</ul>
+		</nav>
+		<section id="main-content">
+			<div class="mc-innerwrap">
+				<div class="content-boxes">
+					<h3>About the Organizing Committee</h3>
+					<p>The organizing committee for this event is made up of students ranging from grades eight to twelve, with various talents and positive attributes. Executives for the organizing committee were chosen by members of the TDSB SuperCouncil. Ambassadors were carefully selected by a recruitment team comprised of members of the executive team.</p>
+				</div>
+				<div class="content-boxes margin-cb">
+				<h3>List of Members of the Organizing Committee</h3>
+				<br/>
+				<br/>
+				<div class="byposition" style="margin:0 auto; text-align:center">
+				<strong>Executives</strong>
+				<p style="font-size:14px">The executive team is responsible for organizing and planning the event.</p>
+				<div id="executives"></div>
+				<noscript>
+					PLEASE ENABLE JAVASCRIPT TO VIEW LIST OF EXECUTIVES
+				</noscript>
+				<script>
+				function executives(arr) {
+    			var out = "";
+   				var i;
+    			for(i = 0; i<arr.length; i++) {
+       				out += '<div class="eachmember"><div class="ip" style="background-image:url(\'' + arr[i].ip + '\');"></div><p><b>' + 
+        			arr[i].name + '</b></p><p class="pos">' + arr[i].position + '</p><p class="gs">Grade ' + arr[i].grade + ' at <strong>'+ arr[i].school +'</strong></p></div>';
+    			}
+    			document.getElementById("executives").innerHTML = out;
+				}
+				</script>
+				<br/>
+				<strong>Ambassadors</strong>
+				<p style="font-size:14px">Ambassadors are the boots on the ground. They are the ones responsible for representing the event.</p>
+				<div id="ambassadors"></div>
+				<noscript>
+					PLEASE ENABLE JAVASCRIPT TO VIEW LIST OF AMBASSADORS
+				</noscript>
+				<script>
+				function ambassadors(arr) {
+    			var out = "";
+   				var i;
+    			for(i = 0; i<arr.length; i++) {
+       				out += '<div class="eachmember"><div class="ip" style="background-image:url(\'' + arr[i].ip + '\');"></div><p><b>' + 
+        			arr[i].name + '</b></p><p class="gs">Grade ' + arr[i].grade + ' at <strong>'+ arr[i].school +'</strong></p></div>';
+    			}
+    			document.getElementById("ambassadors").innerHTML = out;
+				}
+				</script>
+				</div>
+				</div>
+				<script src="static/ambassadors.js"></script>
+				<script src="static/executives.js"></script>
+				<div class="content-boxes margin-cb">
+					<h3>About SuperCouncil</h3>
+					<p>SuperCouncil is a democratically elected student body in the TDSB that allows the student voice to be heard in the TDSB boardroom. They host many events such as “Student Leadership Day”, for student leaders from all over the board to meet and bond with each other.</p>
+				</div>
+				</div>
+			</div>
+		</section>
+		<footer id="footer">
+			<!--
+			<ul class="other-links">
+				<li><a href="index.html"><i class="fa fa-home"></i></a> | </li>
+				<li><a href="artists.html">Artists</a> | </li>
+				<li><a href="about-us.html">About Us</a> | </li>
+				<li><a href="contact-us.html">Contact Us</a></li>
+			</ul>
+			<div style="background-image:url('static/logos/blogo.png'); width:99px; height:105px; background-size:99px 105px;"></div>-->
+			<p><strong>Organized by the Area D Initiative Planning Committee and the TDSB SuperCouncil</strong></p>
+		</footer>
+	</body>
+</html>

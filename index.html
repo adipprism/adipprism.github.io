@@ -3,43 +3,75 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-		<title>PRISM: The Art of a Healthy Mind</title>
+		<title>PRISM - For Attendees</title>
 		<meta name="description" content="PRISM is a night about mental health awareness full of live music, public speakers, and artists showing their pieces off. The night is open to all students in TDSB attending Area D schools.">
 		<meta name="keywords" content="ADIP,Area D,Initiative,PRISM,Art,Healthy Mind">
 		<!-- Analytics and Share sections add here -->
-		<link rel="stylesheet" href="static/font.css" />
+		<link rel="stylesheet" href="static/font/nexa/font-face.css" />
+		<link rel="stylesheet" href="static/font/fa/css/font-awesome.min.css" />
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="static/front-theme.css" />
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.css" />
+		<link rel="stylesheet" href="static/mtheme.css" />
+		<link rel="stylesheet" href="static/c-css/attendees.css" />
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="static/js/click-scroll.js"></script>
+		<script src="static/js/jquery.countdown.min.js"></script>
 	</head>
 	<body>
-		<div class="main">
-			<div class="mainpad">
-			<div class="logo"></div>
-			<!--
-			<p><b>Although they all went through mental health problems, everyone has a different point of view, like a PRISM.</b></p>
-			<p style="font-size:14px;">PRISM is a night full of live music, public speakers, and artists showing their pieces off. Their pieces that will relate to the serious topic of mental health, and how it affects lives everywhere. The idea is to give artists a voice, and allow students to network while also helping to spread the grim reality of the mental health problems that are being faced in today's society.</p>
-			-->
-			<p><b>ART EXHIBITION AND NETWORKING GALA FOR MENTAL HEALTH AND AWARENESS</b></p>
-			<p style="font-size:14px;">with SPEAKERS, LIVE MUSIC, LIGHT REFRESHMENT and SILENT AUCTION </p>
-			<p style="text-transform:uppercase; margin:17px 0 0 0;font-size:16px">Enter the site as an</p>
-			<div class="bwrap">
-				<a href="attendee/index" class="butt" style="margin-right:6px;" />Attendee</a>
-				<a href="artist/index" class="butt" />Artist</a>
+		<div class="fscreen cover-attendee cover"></div>
+		<header class="fscreen header-ac">
+			<div class="fscreen-center">
+				<div class="blogo"></div>
+				<h2 class="page-name">PRISM: <span> Art of a Healthy Mind</span></h2>
+				<h3 class="page-sub">Hosted at <span class="bold">Earl Haig Secondary School Wave Gallery</span> in <br/> <span id="cd"></span></h3>
 			</div>
-			<div class="lwrap">
-				<p style="text-transform:uppercase; margin:17px 0 0 0;font-size:16px">Other Links</p>
-				<ul>
-					<li><a href="who-we-are">Who We Are</a></li>
-					<li> &#8729; </li>
-					<li><a href="about">About PRISM</a></li>
-					<li> &#8729; </li>
-					<li><a href="contact">Contact PRISM</a></li>
-				</ul>
+<script type="text/javascript">
+   $("#cd")
+   .countdown("2016/05/11 18:00:00", function(event) {
+     $(this).text(
+       event.strftime('%D Days, %H Hours, %M Minutes, and %S Seconds')
+     );
+   });
+</script>
+			<div class="header-arrow">
+				<a href="#main-content">
+					<i class="fa fa-arrow-circle-down fa-4x" style="color:#fff;"></i>
+				</a>
 			</div>
-			<small class="footnote">Organized by the ADIP Committee and the TDSB SuperCouncil</small>
-		</div>
-		</div>
+		</header>
+		<section id="main-content">
+			<div class="mc-innerwrap">
+				<div class="content-boxes">
+					<h3>About PRISM</h3>
+					<p>Class it up, bring a friend and enjoy a night filled with pieces designed to inform and inspire. This May 13th, Supercouncil Area D is hosting an art social, consisting of live performances and student made art made to bring awareness to mental health and the mental illnesses that affect 10-20% of all Canadian youth. This networking event will give you the opportunity to meet and mingle with students from across Toronto. *Come dressed up and open minded, leave aware and with newly acquainted with awesome people. <b>Contact a representative now.</b></p>
+				</div>
+				<div class="content-boxes margin-cb">
+					<h3>Speakers</h3>
+					<p>Class it up, bring a friend and enjoy a night filled with pieces designed to inform and inspire. This May 13th, Supercouncil Area D is hosting an art social, consisting of live performances and student made art made to bring awareness to mental health and the mental illnesses that affect 10-20% of all Canadian youth. This networking event will give you the opportunity to meet and mingle with students from across Toronto. *Come dressed up and open minded, leave aware and with newly acquainted with awesome people. <b>Contact a representative now.</b></p>
+				</div>
+				<div class="content-boxes margin-cb" style="padding:7px;">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5762.277628887116!2d-79.4103976992392!3d43.769977228988374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2d697a8b44a7%3A0x75dae3e905101326!2sEarl+Haig+Secondary+School!5e0!3m2!1sen!2sca!4v1459231612358" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="content-boxes margin-cb">
+					<h3><span>Frequently Asked</span> Questions</h3>
+					<p>Class it up, bring a friend and enjoy a night filled with pieces designed to inform and inspire. This May 13th, Supercouncil Area D is hosting an art social, consisting of live performances and student made art made to bring awareness to mental health and the mental illnesses that affect 10-20% of all Canadian youth. This networking event will give you the opportunity to meet and mingle with students from across Toronto. *Come dressed up and open minded, leave aware and with newly acquainted with awesome people. <b>Contact a representative now.</b></p>
+				</div>
+				<div class="content-boxes margin-cb">
+					<h3><span>Get</span> Tickets</h3>
+					<p>Class it up, bring a friend and enjoy a night filled with pieces designed to inform and inspire. This May 13th, Supercouncil Area D is hosting an art social, consisting of live performances and student made art made to bring awareness to mental health and the mental illnesses that affect 10-20% of all Canadian youth. This networking event will give you the opportunity to meet and mingle with students from across Toronto. *Come dressed up and open minded, leave aware and with newly acquainted with awesome people. <b>Contact a representative now.</b></p>
+				</div>
+			</div>
+		</section>
+		<footer id="footer">
+			<ul class="other-links">
+				<li><a href="index.html"><i class="fa fa-home"></i></a> | </li>
+				<li><a href="artists.html">Artists</a> | </li>
+				<li><a href="who-we-are.html">Who We Are</a> | </li>
+				<li><a href="about-us.html">About Us</a> | </li>
+				<li><a href="contact-us.html">Contact Us</a></li>
+			</ul>
+			<p><strong>Organized by the Area D Initiative Planning Committee and the TDSB SuperCouncil</strong></p>
+		</footer>
 	</body>
 </html>
