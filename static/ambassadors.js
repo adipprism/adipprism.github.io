@@ -18,6 +18,12 @@ ambassadors([
 "ip": "static/ip/ambassadors/3/square.jpg"
 },
 {
+"name": "Winnie Fang",
+"school" : "Albert Campbell Collegiate Institute",
+"grade" : "10",
+"ip": "static/ip/none.png"
+},
+{
 "name": "Abdullah Rahimi",
 "school" : "Don Mills Collegiate Institute",
 "grade" : "11",
@@ -96,12 +102,6 @@ ambassadors([
 "ip": "static/ip/none.png"
 },
 {
-"name": "Sarah Shkiler",
-"school" : "Newtonbrook Secondary School",
-"grade" : "N/A",
-"ip": "static/ip/none.png"
-},
-{
 "name": "Grant Clowater",
 "school" : "Pleasant View Junior High School",
 "grade" : "9",
@@ -112,6 +112,12 @@ ambassadors([
 "school" : "Pleasant View Junior High School",
 "grade" : "9",
 "ip": "static/ip/ambassadors/15/square.jpg"
+},
+{
+"name": "Allen Zhang",
+"school" : "Pleasant View Junior High School",
+"grade" : "9",
+"ip": "static/ip/none.png"
 },
 {
 "name": "Felix Ha",
@@ -148,5 +154,11 @@ ambassadors([
 "school" : "Victoria Park Collegiate Institute",
 "grade" : "10",
 "ip": "static/ip/ambassadors/20/square.jpg"
+},
+{
+"name": "Annie Limbana",
+"school" : "York Mills Collegiate Institute",
+"grade" : "11",
+"ip": "static/ip/none.png"
 }
 ])

@@ -1,3 +1,12 @@
+::-moz-selection {
+	background-color: #416878;
+	color: #fff;
+}
+
+::selection {
+	background-color: #416878;
+	color: #fff;
+}
 
 
 * {
@@ -128,6 +137,70 @@ h3.page-sub {
 
 .margin-cb {
 	margin: 30px 0 0;
+}
+
+.cb-new {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+@media(max-width: 1200px){
+	.cb-new {
+		width: 900px;
+	}
+}
+
+@media(max-width: 920px){
+	.cb-new {
+		width: 700px;
+	}
+}
+
+@media(max-width: 720px){
+	.cb-new {
+		width: 500px;
+	}
+}
+
+@media(max-width: 520px){
+	.cb-new {
+		width: 400px;
+	}
+}
+
+@media(max-width: 420px){
+	.cb-new {
+		width: 300px;
+	}
+}
+
+@media(max-width: 320px){
+	.cb-new {
+		width: 200px;
+	}
+}
+
+@media(max-width: 220px){
+	.cb-new {
+		width: 150px;
+	}
+}
+
+.cb-new h3 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.cb-new .centre {
+	text-align: center;
+}
+
+.cb-new .marginb15 {
+	margin-bottom: 15px;
+}
+
+.cb-new .margint15 {
+	margin-top: 15px;
 }
 
 input[type=text],select,textarea {
@@ -317,5 +390,9 @@ ul.toggler-mobile {
 
 	.show-mobile {
 		display: inline;
+	}
+
+	h3.page-sub {
+		display: none;
 	}
 }
