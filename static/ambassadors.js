@@ -67,19 +67,19 @@ ambassadors([
 },
 {
 "name": "Mohammad Shihabuddin",
-"school" : "Georges S Henry Academy",
+"school" : "George S Henry Academy",
 "grade" : "9",
 "ip": "static/ip/ambassadors/10/square.jpg"
 },
 {
 "name": "Omera Pirzada",
-"school" : "Georges S Henry Academy",
+"school" : "George S Henry Academy",
 "grade" : "11",
 "ip": "static/ip/ambassadors/11/square.jpg"
 },
 {
 "name": "Umer Memon",
-"school" : "Georges S Henry Academy",
+"school" : "George S Henry Academy",
 "grade" : "11",
 "ip": "static/ip/ambassadors/12/square.jpg"
 },
