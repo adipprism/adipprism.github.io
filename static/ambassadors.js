@@ -102,13 +102,13 @@ ambassadors([
 "ip": "static/ip/none.png"
 },
 {
-"name": "Grant Clowater",
+"name": "Niko Ramses",
 "school" : "Pleasant View Junior High School",
 "grade" : "9",
 "ip": "static/ip/ambassadors/14/square.jpg"
 },
 {
-"name": "Niko Ramses",
+"name": "Grant Clowater",
 "school" : "Pleasant View Junior High School",
 "grade" : "9",
 "ip": "static/ip/ambassadors/15/square.jpg"
