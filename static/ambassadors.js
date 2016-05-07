@@ -48,18 +48,6 @@ ambassadors([
 "ip": "static/ip/ambassadors/7/square.jpg"
 },
 {
-"name": "Lyn Chen",
-"school" : "Dr. Norman Bethune Collegiate Institute",
-"grade" : "12",
-"ip": "static/ip/none.png"
-},
-{
-"name": "Anita Borhani",
-"school" : "Earl Haig Secondary School",
-"grade" : "11",
-"ip": "static/ip/ambassadors/8/square.jpg"
-},
-{
 "name": "Chunlin Liu",
 "school" : "Earl Haig Secondary School",
 "grade" : "9",
